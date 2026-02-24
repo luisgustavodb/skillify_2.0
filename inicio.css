@@ -1,0 +1,123 @@
+#fundo_inicio {
+    background-image: radial-gradient(#24A675, #1C7B57);
+    z-index: 1;
+}
+
+#inicio {
+    padding-top: 5vw;
+    height: 40vw;
+    width: 80vw;
+    display: flex;
+    align-items: start;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-evenly;
+}
+
+#inicio_cont_1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2vw;
+    z-index: 3;
+}
+
+#titulo_inicio {
+    font-size: 4vw;
+    font-weight: 100;
+    color: white;
+}
+
+#span_titulo {
+    font-family: "Irish Grover", system-ui;
+    color: var(--LOGO-COLOR);
+}
+
+#img_inicio {
+    height: auto;
+    width: min(40vw, 45vw);
+    z-index: 4;
+}
+
+#btns_cont {
+    width: 30vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3vw;
+}
+
+#btn_cadastrar {
+    width: 30vw;
+    height: min(4vw, 70px);
+    border-radius: 0.7vw;
+    border: none;
+    background-color: var(--COR-PRINCIPAL);
+    font-size: min(1.5vw, 20px);
+}
+
+#btns_lado_a_lado {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#btn_aluno,
+#btn_prof {
+    height: min(4vw, 70px);
+    width: 14vw;
+    border-radius: 0.7vw;
+    border: none;
+    font-size: min(1.5vw, 20px);
+    background-color: var(--COR-PRINCIPAL);
+}
+
+#btn_aluno:hover,
+#btn_prof:hover,
+#btn_cadastrar:hover {
+    background-color: #779922;
+    cursor: pointer;
+}
+
+#forma_1 {
+    position: absolute;
+    width: max(20vw, 250px);
+    height: auto;
+    z-index: 1;
+    transform: rotate(-20deg);
+    left: -150px;
+    top: -20px;
+    overflow: hidden;
+}
+
+#forma_2 {
+    position: absolute;
+    width: max(20vw, 250px);
+    height: auto;
+    z-index: 1;
+    transform: rotate(-20deg);
+    right: -140px;
+    top: -140px;
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+
+#forma_3 {
+    position: absolute;
+    width: 40vw;
+    height: auto;
+    z-index: 1;
+    transform: rotate(-20deg);
+    right: 10vw;
+    top: 7vh;
+    z-index: 2;
+    overflow: hidden;
+
+}
