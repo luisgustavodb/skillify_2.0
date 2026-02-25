@@ -1,0 +1,17 @@
+.contato {
+    color: black;
+}
+
+#footer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9FCC2E;
+}
+
+#contatos {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
